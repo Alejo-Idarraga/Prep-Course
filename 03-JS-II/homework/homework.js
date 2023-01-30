@@ -148,7 +148,7 @@ function operadoresLogicos(num1, num2, num3) {
      return num3 + 1;
   } else {
      return false;
-  }
+  }     
 }
 
 function esPrimo(numero) {
@@ -203,6 +203,7 @@ function doWhile(numero) {
   //Implementar una función tal que vaya aumentando el valor recibido en 5 hasta un límite de 8 veces
   //Retornar el valor final.
   //Usar el bucle do ... while.
+  
 }
 
 
