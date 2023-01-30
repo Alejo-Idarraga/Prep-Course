@@ -108,11 +108,11 @@ function esEntero(numero) {
   // De lo contrario, devuelve "false"
   // Pista: Puedes resolver esto usando `Math.floor`
   // Tu código:
- if (numero % 1 == 0){
+ if (numero === Math.floor(numero)){
   return true;
- } else{
-  return false;
- }
+ }else{
+    return false;
+  }
 }
 
 function fizzBuzz(numero) {
@@ -203,7 +203,13 @@ function doWhile(numero) {
   //Implementar una función tal que vaya aumentando el valor recibido en 5 hasta un límite de 8 veces
   //Retornar el valor final.
   //Usar el bucle do ... while.
-  
+var contador = 8;
+var resultado = 0;
+do { 
+  contador = contador - 1;
+  resultado = resultado + 5;
+} while (contador !== 0)
+return numero + resultado;
 }
 
 
